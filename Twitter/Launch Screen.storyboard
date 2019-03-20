@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="a6z-jK-XOA">
+                                <rect key="frame" x="86" y="244" width="202" height="178"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a6z-jK-XOA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="70" id="eiR-eq-cfw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a6z-jK-XOA" secondAttribute="trailing" constant="71" id="iBz-rk-eX4"/>
+                            <constraint firstItem="a6z-jK-XOA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="224" id="l3i-tU-Zbq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="a6z-jK-XOA" secondAttribute="bottom" constant="245" id="wgr-YM-QB6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -26,4 +37,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="400" height="400"/>
+    </resources>
 </document>
